@@ -39,9 +39,6 @@ close.addEventListener('click', () => {
 
 
 
-const parallaxImage = document.getElementById('parallaxImage');
-const secondSection = document.querySelector('.second');
-const mainSection = document.getElementById('main');
 
 window.addEventListener('scroll', () => {
     const scrollY = window.scrollY; // Current scroll position
